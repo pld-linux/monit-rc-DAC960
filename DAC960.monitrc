@@ -1,0 +1,3 @@
+check file dac960_status with path /proc/rd/status
+	ignore match "OK"
+	if match "ALERT" then alert
