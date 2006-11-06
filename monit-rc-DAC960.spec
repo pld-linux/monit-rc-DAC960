@@ -1,9 +1,10 @@
 Summary:	monitrc file for monitoring DAC960 status
+Summary(pl):	Plik monitrc do monitorowania stanu DAC960
 Name:		monit-rc-DAC960
 Version:	3
 Release:	1
 License:	GPL
-Group:		Applications
+Group:		Applications/System
 Source0:	DAC960.monitrc
 BuildRequires:	rpmbuild(macros) >= 1.268
 Requires:	monit
@@ -12,6 +13,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 monitrc file for monitoring DAC960 status.
+
+%description -l pl
+Plik monitrc do monitorowania stanu DAC960.
 
 %prep
 %setup -q -c
