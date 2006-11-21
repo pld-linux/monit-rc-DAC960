@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications/System
 Source0:	DAC960.monitrc
 BuildRequires:	rpmbuild(macros) >= 1.268
+Requires(post,postun):	monit
 Requires:	monit
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -18,7 +19,6 @@ monitrc file for monitoring DAC960 status.
 Plik monitrc do monitorowania stanu DAC960.
 
 %prep
-%setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
