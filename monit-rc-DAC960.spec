@@ -1,5 +1,5 @@
 Summary:	monitrc file for monitoring DAC960 status
-Summary(pl.UTF-8):   Plik monitrc do monitorowania stanu DAC960
+Summary(pl.UTF-8):	Plik monitrc do monitorowania stanu DAC960
 Name:		monit-rc-DAC960
 Version:	3
 Release:	1
